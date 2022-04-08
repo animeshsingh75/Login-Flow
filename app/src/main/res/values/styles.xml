@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ShapeAppearance.Button.Medium" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/dp10</item>
+    </style>
+    <style name="TextStyle_Small_Semi_Bold" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/circular_std_medium</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+    <style name="Gilroy.H1" parent="TextAppearance.AppCompat" />
+    <style name="Gilroy.H1.32sp" parent="Gilroy.H1">
+        <item name="android:textSize">@dimen/text_size_xxxl</item>
+    </style>
+    <style name="Gilroy.32sp.Extrabold" parent="Gilroy.H1.32sp">
+        <item name="fontFamily">@font/gilroy_extrabold</item>
+    </style>
+    <style name="InputTextOTP">
+        <item name="android:textColorHint">@color/colorSlotDuration</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:fontFamily">@font/circular_std_medium</item>
+    </style>
+
+    <dimen name="text_size_large">20sp</dimen>
+</resources>

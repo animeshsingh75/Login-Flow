@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dp11">11dp</dimen>
+    <dimen name="dp24">24dp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="dp12">12dp</dimen>
+    <dimen name="text_size_m">14sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_xxxl24">24sp</dimen>
+    <dimen name="text_size_xxxl">32sp</dimen>
+    <dimen name="otp_width_height">48dp</dimen>
+</resources>

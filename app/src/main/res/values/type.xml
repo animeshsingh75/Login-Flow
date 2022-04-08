@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Gilroy.Body2" parent="TextAppearance.AppCompat" />
+    <style name="Gilroy.Body2.14sp" parent="Gilroy.Body2">
+        <item name="android:textSize">@dimen/text_size_m</item>
+    </style>
+    <style name="Gilroy.Body2.20sp" parent="Gilroy.Body2">
+        <item name="android:textSize">@dimen/text_size_20</item>
+    </style>
+    <style name="Gilroy.14sp.Bold" parent="Gilroy.Body2.14sp">
+        <item name="fontFamily">@font/gilroy_bold</item>
+    </style>
+    <style name="Gilroy.20sp.Bold" parent="Gilroy.Body2.20sp">
+        <item name="fontFamily">@font/gilroy_bold</item>
+    </style>
+</resources>
