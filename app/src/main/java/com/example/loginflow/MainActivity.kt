@@ -18,6 +18,9 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    override fun onBackPressed() {
+        finishAffinity()
+    }
     override fun onResume() {
         binding.animationView.resumeAnimation()
         super.onResume()

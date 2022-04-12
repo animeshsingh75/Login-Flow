@@ -13,4 +13,5 @@
     <color name="colorSlotDuration">#666666</color>
     <color name="colorBlack">#232C33</color>
     <color name="colorGreyEditText">#198e8e93</color>
+    <color name="colorStrokeGrey">#EDF0F9</color>
 </resources>

@@ -22,6 +22,37 @@
         <item name="android:textSize">@dimen/text_size_large</item>
         <item name="android:fontFamily">@font/circular_std_medium</item>
     </style>
-
+    <style name="Widget.TextButton.Small" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:paddingTop">@dimen/dp9</item>
+        <item name="android:paddingBottom">@dimen/dp9</item>
+        <item name="android:textAppearance">@style/Gilroy.12sp.Bold</item>
+        <item name="paddingStart">@dimen/dp16</item>
+        <item name="paddingEnd">@dimen/dp16</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Button.Small</item>
+    </style>
+    <style name="Widget.PrimaryButton.Large" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/selector_primary_btn</item>
+        <item name="android:paddingTop">@dimen/dp15</item>
+        <item name="android:paddingBottom">@dimen/dp15</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textAppearance">@style/Gilroy.14sp.Bold</item>
+        <item name="paddingStart">@dimen/dp24</item>
+        <item name="paddingEnd">@dimen/dp24</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Button.Large</item>
+    </style>
+    <style name="ShapeAppearance.Button.Large" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/dp12</item>
+    </style>
+    <style name="ShapeAppearance.Button.Small" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+    <style name="Gilroy.12sp.SemiBold" parent="Gilroy.Subtitle1.12sp">
+        <item name="fontFamily">@font/gilroy_semibold</item>
+    </style>
     <dimen name="text_size_large">20sp</dimen>
+    <dimen name="dp9">9dp</dimen>
+    <dimen name="dp16">16dp</dimen>
+    <dimen name="dp15">15dp</dimen>
 </resources>

@@ -5,11 +5,15 @@
       <map>
         <entry key="app/src/main/res/drawable/bg_rect_stroke_blue_round_4.xml" value="0.1495" />
         <entry key="app/src/main/res/drawable/bg_round_rect_otp.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_placeholder.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_truecaller_blue_logo.xml" value="0.305" />
         <entry key="app/src/main/res/font/gilroy_bold.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login_anim_scene.xml" value="0.13958333333333334" />
+        <entry key="app/src/main/res/layout/activity_login_flow2.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.28541666666666665" />
         <entry key="app/src/main/res/layout/activity_otp.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_phone.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.2824074074074074" />
       </map>
     </option>
   </component>

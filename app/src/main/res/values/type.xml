@@ -13,4 +13,27 @@
     <style name="Gilroy.20sp.Bold" parent="Gilroy.Body2.20sp">
         <item name="fontFamily">@font/gilroy_bold</item>
     </style>
+    <style name="Gilroy.Caption" parent="TextAppearance.AppCompat" />
+    <style name="Gilroy.Caption.32sp" parent="Gilroy.Caption">
+        <item name="android:textSize">@dimen/text_size_32</item>
+    </style>
+    <style name="Gilroy.32sp.Bold" parent="Gilroy.Caption.32sp">
+        <item name="fontFamily">@font/gilroy_bold</item>
+    </style>
+    <style name="Gilroy.14sp.Medium" parent="Gilroy.Body2.14sp">
+        <item name="fontFamily">@font/gilroy_medium</item>
+    </style>
+    <style name="Gilroy.14sp.SemiBold" parent="Gilroy.Body2.14sp">
+        <item name="fontFamily">@font/gilroy_semibold</item>
+    </style>
+    <style name="Gilroy.Subtitle1" parent="TextAppearance.AppCompat" />
+    <style name="Gilroy.Subtitle1.12sp" parent="Gilroy.Subtitle1">
+        <item name="android:textSize">@dimen/text_size_s</item>
+        <item name="android:textColor">?colorOnSurface</item>
+    </style>
+    <style name="Gilroy.12sp.Bold" parent="Gilroy.Subtitle1.12sp">
+        <item name="fontFamily">@font/gilroy_bold</item>
+    </style>
+    <dimen name="text_size_s">12sp</dimen>
+    <dimen name="text_size_32">32sp</dimen>
 </resources>

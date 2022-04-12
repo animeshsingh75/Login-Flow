@@ -17,7 +17,6 @@ class PhoneActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
-        binding.phoneNumber.addTextChangedListener(PhoneNumberFormattingTextWatcher())
         binding.otpButton.setOnClickListener {
             val intent = Intent(this, OtpActivity::class.java)
             intent.putExtra("phone_number",binding.phoneNumber.text.toString())

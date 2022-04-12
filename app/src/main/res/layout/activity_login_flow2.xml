@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/rootMotionLayout"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_login_anim_scene">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp40"
+        android:text="Everything for your car"
+        android:textAppearance="@style/Gilroy.32sp.Bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp12"
+        android:text="Everything for your car adjfle edfjael es laj adsjfle \ndance with xyc"
+        android:textAppearance="@style/Gilroy.14sp.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgCenter"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/car"
+        android:layout_marginTop="@dimen/dp40"
+        app:layout_constraintTop_toBottomOf="@+id/tvSubtitle" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGuestLogin"
+        style="@style/Widget.TextButton.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp20"
+        android:layout_marginBottom="@dimen/dp10"
+        android:text="Guest Login"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogin"
+        style="@style/Widget.PrimaryButton.Large"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp20"
+        android:text="Login"
+        app:layout_constraintBottom_toTopOf="@+id/btnGuestLogin"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvLoginTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:layout_marginStart="@dimen/dp20"
+        android:text="Please enter your number"
+        android:textAppearance="@style/Gilroy.14sp.SemiBold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgCenter" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tlUserNumber"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp12"
+        android:alpha="0"
+        android:layout_marginEnd="@dimen/dp12"
+        app:boxCornerRadiusBottomEnd="@dimen/dp12"
+        app:boxCornerRadiusBottomStart="@dimen/dp12"
+        app:boxCornerRadiusTopEnd="@dimen/dp12"
+        app:boxCornerRadiusTopStart="@dimen/dp12"
+        app:boxStrokeColor="@color/colorStrokeGrey"
+        app:boxStrokeWidth="1dp"
+        app:hintEnabled="false"
+        app:hintTextAppearance="@style/Gilroy.12sp.SemiBold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLoginTitle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etUserNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+            android:hint="999999999"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:maxLength="13"
+            android:maxLines="1"
+            android:textAppearance="@style/Gilroy.14sp.SemiBold" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
